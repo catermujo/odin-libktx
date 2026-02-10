@@ -2,7 +2,7 @@
 
 setlocal EnableDelayedExpansion
 
-if not exist KTX-Software\NUL (
+if not exist KTX-Software (
     git clone --recurse-submodules https://github.com/KhronosGroup/KTX-Software --depth=1
 )
 
