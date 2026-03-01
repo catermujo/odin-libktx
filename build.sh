@@ -2,7 +2,7 @@
 
 set -e
 
-[ -d KTX-Software ] || git clone https://github.com/KhronosGroup/KTX-Software --depth 1
+[ -d KTX-Software ] || git clone --revision 0b3fad6a6dbe79fdd2872247035513fab84b5b40 https://github.com/KhronosGroup/KTX-Software --depth 1
 
 echo "Building KTX.."
 cd KTX-Software

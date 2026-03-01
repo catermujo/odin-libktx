@@ -3,7 +3,7 @@
 setlocal EnableDelayedExpansion
 
 if not exist KTX-Software (
-    git clone --recurse-submodules https://github.com/KhronosGroup/KTX-Software --depth=1
+    git clone --recurse-submodules --revision 0b3fad6a6dbe79fdd2872247035513fab84b5b40 https://github.com/KhronosGroup/KTX-Software --depth=1
 )
 
 set binaries_dir=build
